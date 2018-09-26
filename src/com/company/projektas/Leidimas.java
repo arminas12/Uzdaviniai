@@ -1,4 +1,4 @@
 package com.company.Projektas;
 
-public enum Paprastos {
+public class Leidimas {
 }

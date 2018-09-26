@@ -1,4 +1,4 @@
 package com.company.Projektas;
 
-public enum Koduoti {
+public class Main {
 }
