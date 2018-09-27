@@ -2,12 +2,12 @@ package com.company.projektas;
 
 public class Durys {
     private int id;
-    private String pavadinimas;
+    private String ppavadinimas;
 
     public Durys(int idd, String dpavadinimas) {
 
         id = idd;
-        pavadinimas = dpavadinimas;
+        ppavadinimas = dpavadinimas;
     }
 
 
@@ -20,11 +20,16 @@ public class Durys {
     }
 
     public String getPavadinimas() {
-        return pavadinimas;
+        return ppavadinimas;
     }
 
     public void setPavadinimas(String pavadinimas) {
-        this.pavadinimas = pavadinimas;
+        this.ppavadinimas = pavadinimas;
+
+
+
+        }
+        public String toString () {
+            return (" Idendifikavimas: " + id + " Pareigos: " + ppavadinimas);
     }
 }
-

@@ -40,4 +40,7 @@ public class Asmuo {
     public void setVardaspavarde(String vardaspavarde) {
         this.vardas = vardaspavarde;
     }
+    public String toString(){
+return (" Idendifikavimas: " + id +" Pareigos: "+ pareigos + " Vardas: "  + vardas);
+    }
 }
