@@ -18,6 +18,8 @@ public class App {
         durys.add(new Durys(15, "vardas"));
         durys.add(new Durys(53, "pareigos"));
         durys.add(new Durys(98, "id"));
+
+
     }
 }
 
