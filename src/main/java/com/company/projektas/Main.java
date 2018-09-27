@@ -9,6 +9,6 @@ public class Main {
         leidzia.setAsmuo("Jonas");
         leidzia.setDurys("Pagrindines");
 
-        System.out.println("Asmuo:" + leidzia.getAsmuo() + "Durys:" + leidzia.getDurys());
+        System.out.println("asmuo:" + leidzia.getAsmuo() + "durys:" + leidzia.getDurys());
     }
 }

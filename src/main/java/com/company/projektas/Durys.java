@@ -4,6 +4,11 @@ public class Durys {
     private int id;
     private String pavadinimas;
 
+    public Durys(String pagrindines) {
+        pavadinimas = pagrindines;
+
+    }
+
     public int getId() {
         return id;
     }

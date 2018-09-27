@@ -1,22 +1,22 @@
 package com.company.projektas;
 
 public class Leidimas {
-    String Asmuo;
-    String Durys;
+    private String asmuo;
+    private String durys;
 
     public String getAsmuo() {
-        return Asmuo;
+        return asmuo;
     }
 
     public void setAsmuo(String asmuo) {
-        Asmuo = asmuo;
+        this.asmuo = asmuo;
     }
 
     public String getDurys() {
-        return Durys;
+        return durys;
     }
 
     public void setDurys(String durys) {
-        Durys = durys;
+        this.durys = durys;
     }
 }

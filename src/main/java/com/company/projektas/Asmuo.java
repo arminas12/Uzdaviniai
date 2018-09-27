@@ -4,22 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Asmuo {
-    private int id;
-    private String pareigos;
-    private String vardaspavarde;
-
-    public Asmuo(String pareigos) {
-
-    }
+    private int id; // 0
+    private String pareigos; //null
+    private String vardas; // null
 
 
-    public static void main(String[] args) {
+    public Asmuo(int pid, String pvardas, String ppareigos) {
 
-        List<Asmuo> list1 = new ArrayList<Asmuo>();
-        list1.add(new Asmuo("asistentas"));
-        list1.add(new Asmuo("darbuotojas"));
-        list1.add(new Asmuo("vadovas"));
-
+        id = pid;
+        pareigos = ppareigos;
+        vardas = pvardas;
     }
 
 
@@ -40,10 +34,10 @@ public class Asmuo {
     }
 
     public String getVardaspavarde() {
-        return vardaspavarde;
+        return vardas;
     }
 
     public void setVardaspavarde(String vardaspavarde) {
-        this.vardaspavarde = vardaspavarde;
+        this.vardas = vardaspavarde;
     }
 }
