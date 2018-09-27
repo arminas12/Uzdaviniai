@@ -4,6 +4,13 @@ public class Leidimas {
     private String asmuo;
     private String durys;
 
+
+
+
+
+
+
+
     public String getAsmuo() {
         return asmuo;
     }

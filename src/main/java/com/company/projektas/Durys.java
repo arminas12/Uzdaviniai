@@ -4,10 +4,12 @@ public class Durys {
     private int id;
     private String pavadinimas;
 
-    public Durys(String pagrindines) {
-        pavadinimas = pagrindines;
+    public Durys(int idd, String dpavadinimas) {
 
+        id = idd;
+        pavadinimas = dpavadinimas;
     }
+
 
     public int getId() {
         return id;
