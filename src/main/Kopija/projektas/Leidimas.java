@@ -7,16 +7,12 @@ public class Leidimas {
     private String asmuo;
     private String durys;
 
-    private Leidimas(String paradines, String vip) {
-
-    }
-
-
-    public static void main(String[] args, String paradines, String vip) {
-        List<Leidimas> leidzia = new ArrayList<>();
-        leidzia.add(new Leidimas(paradines, vip));
-
-    }
+//    private Leidimas(String paradines, String vip) {
+//    }
+//    public static void main(String[] args, String paradines, String vip) {
+//        List<Leidimas> leidzia = new ArrayList<>();
+//        leidzia.add(new Leidimas(paradines, vip));
+//    }
 
 
     public String getAsmuo() {

@@ -3,7 +3,7 @@ package com.company.projektas;
 public class Main {
 
 
-
+//    Pavyzdys man
 //    public static void main(String args[]) {
 //        Leidimas leidzia = new Leidimas();
 //        leidzia.setAsmuo("Jonas");
