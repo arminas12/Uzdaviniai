@@ -1,10 +1,14 @@
-package com.company.projektas;
+package com.arminas.acprj.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Asmuo {
+
+
     private int id; // 0
+
+private boolean galioja = true;
     private String pareigos; //null
     private String vardas; // null
 
@@ -16,6 +20,13 @@ public class Asmuo {
         vardas = pvardas;
     }
 
+    public boolean isGalioja() {
+        return galioja;
+    }
+
+    public void setGalioja(boolean galioja) {
+        this.galioja = galioja;
+    }
 
     public int getId() {
         return id;

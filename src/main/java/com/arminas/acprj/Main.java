@@ -1,4 +1,4 @@
-package com.company.projektas;
+package com.arminas.acprj;
 
 public class Main {
 

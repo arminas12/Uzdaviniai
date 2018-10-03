@@ -1,7 +1,9 @@
-package com.company.projektas;
+package com.arminas.acprj.model;
 
 public class Durys {
     private int id;
+
+    private DuruStatusas statusas = DuruStatusas.IPRASTAS;
     private String ppavadinimas;
 
     public Durys(int idd, String dpavadinimas) {
