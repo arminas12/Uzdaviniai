@@ -1,12 +1,12 @@
 package com.arminas.acprj.arminas;
 
-public class Kkontrole {
+public class DuruKontrole {
 
     public static void main(String[] args) {
 
-        Paprasta priekines = new Paprasta("Priekines", "open");
-        Paprasta vidines = new Paprasta("Vidines", "closed");
-        Paprasta galines = new Paprasta("Galines", "closed");
+        DuruStatusas priekines = new DuruStatusas("Priekines", "open");
+        DuruStatusas vidines = new DuruStatusas("Vidines", "closed");
+        DuruStatusas galines = new DuruStatusas("Galines", "closed");
 
 
         if (priekines.statusas.equals("open")) {
