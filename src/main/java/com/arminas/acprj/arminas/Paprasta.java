@@ -1,11 +1,20 @@
 package com.arminas.acprj.arminas;
 
 public class Paprasta {
-     String vardas,statusas;
+    String vardas;
+    String statusas;
 
     public Paprasta(String vardas, String statusas) {
         this.vardas = vardas;
         this.statusas = statusas;
+    }
+
+    public String getVardas() {
+        return vardas;
+    }
+
+    public String getStatusas() {
+        return statusas;
     }
 
     public String statusas() {
@@ -38,7 +47,7 @@ public class Paprasta {
     }
 
     public String israsymas() {
-        return "Dooru vardas: " + vardas +  "Statusas duru: " + statusas;
+        return "Dooru vardas: " + vardas + "Statusas duru: " + statusas;
 
     }
 }
