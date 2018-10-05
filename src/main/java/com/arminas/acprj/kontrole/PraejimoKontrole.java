@@ -4,12 +4,23 @@ import com.arminas.acprj.model.Asmuo;
 import com.arminas.acprj.model.Durys;
 import com.arminas.acprj.model.Leidimas;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PraejimoKontrole {
 
-    private void panaikintiLeidima(int id) {
-    }
+    private List<Leidimas> leidimai = new ArrayList<>();
 
-    private void idetiLeidimas(Leidimas leidimas) {
+    private void panaikintiLeidima(int id) {
+//for (Leidimas leidimas: leidimai  ){
+//    if (leidimas.getDurys()= ){
+//        return;
+//    }
+}
+//    }
+
+    private void idetiLeidima(Leidimas leidimas) {
+        leidimai.add(leidimas);
 
     }
 

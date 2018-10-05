@@ -8,7 +8,8 @@ public class Asmuo {
 
     private int id; // 0
 
-private boolean galioja = true;
+    private boolean galioja = true;
+
     private String pareigos; //null
     private String vardas; // null
 
@@ -51,7 +52,8 @@ private boolean galioja = true;
     public void setVardaspavarde(String vardaspavarde) {
         this.vardas = vardaspavarde;
     }
-    public String toString(){
-return (" Idendifikavimas: " + id +" Pareigos: "+ pareigos + " Vardas: "  + vardas);
+
+    public String toString() {
+        return (" Idendifikavimas: " + id + " Pareigos: " + pareigos + " Vardas: " + vardas);
     }
 }

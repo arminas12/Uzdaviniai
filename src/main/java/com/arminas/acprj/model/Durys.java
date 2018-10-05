@@ -4,13 +4,23 @@ public class Durys {
     private int id;
 
     private DuruStatusas statusas = DuruStatusas.IPRASTAS;
-    private String ppavadinimas;
+    public String ppavadinimas;
 
     public Durys(int idd, String dpavadinimas) {
 
         id = idd;
         ppavadinimas = dpavadinimas;
     }
+
+
+//    public void pagrindines() {
+//
+//       ppavadinimas = "pagrindines";}
+//
+//    public void vidurines() {
+//
+//        ppavadinimas = "vidurines";
+//    }
 
 
     public int getId() {
@@ -29,9 +39,9 @@ public class Durys {
         this.ppavadinimas = pavadinimas;
 
 
+    }
 
-        }
-        public String toString () {
-            return (" Idendifikavimas: " + id + " Pareigos: " + ppavadinimas);
+    public String toString() {
+        return (" Idendifikavimas: " + id + " Pareigos: " + ppavadinimas);
     }
 }
